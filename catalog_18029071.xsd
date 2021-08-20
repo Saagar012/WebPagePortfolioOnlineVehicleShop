@@ -1,0 +1,142 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="VehicleShop">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ShopDetails" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="itemForSale" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ShopDetails" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="shopName"/>
+				<xs:element ref="address"/>
+				<xs:element ref="telephoneNumber"/>
+				<xs:element ref="websiteaddress"/>
+				<xs:element ref="logo"/>
+			</xs:sequence>
+			<xs:attribute ref="CEO" use="required"/>
+			<xs:attribute ref="shopNo" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="itemForSale">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="sedan" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="bodyStyle"/>
+							<xs:element ref="brandName"/>
+							<xs:element ref="description"/>
+							<xs:element ref="itemNumber"/>
+							<xs:element ref="quantity"/>
+							<xs:element ref="price"/>
+							<xs:element ref="logo"/>
+							<xs:element ref="cars"/>
+						</xs:sequence>
+						<xs:attribute ref="itemId" use="required"/>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="hatchback" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="bodyStyle"/>
+							<xs:element ref="brandName"/>
+							<xs:element ref="description"/>
+							<xs:element ref="itemNumber"/>
+							<xs:element ref="quantity"/>
+							<xs:element ref="price"/>
+							<xs:element ref="logo"/>
+							<xs:element ref="cars"/>
+						</xs:sequence>
+						<xs:attribute ref="itemId" use="required"/>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="suv" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="bodyStyle"/>
+							<xs:element ref="brandName"/>
+							<xs:element ref="description"/>
+							<xs:element ref="itemNumber"/>
+							<xs:element ref="quantity"/>
+							<xs:element ref="price"/>
+							<xs:element ref="logo"/>
+							<xs:element ref="cars"/>
+						</xs:sequence>
+						<xs:attribute ref="itemId" use="required"/>
+					</xs:complexType>
+				</xs:element>			
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cars" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="manufacturer"/>
+				<xs:element ref="cartype" />
+				<xs:element ref="color"/>
+				<xs:element ref="dimension"/>
+				<xs:element ref="mileage"/>
+				<xs:element ref="manufacturedDate"/>
+			</xs:sequence>		
+			<xs:attribute ref="carId" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="shopName" type="xs:string"/>
+	<xs:element name="address" type="xs:string"/>
+	<xs:element name="telephoneNumber" type="xs:string"/>
+	<xs:element name="websiteaddress" type="xs:string"/>
+	
+	<xs:element name="logo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="img"/>
+			</xs:sequence>
+			<xs:attribute ref="imgId" use="optional"/>
+		</xs:complexType>
+	</xs:element>	
+
+
+	<xs:element name="bodyStyle" type="xs:string"/>
+	<xs:element name="brandName" type="xs:string"/>
+	<xs:element name="itemNumber" type="xs:integer"/>
+	<xs:element name="description" type="xs:string"/>
+	<xs:element name="quantity" type="xs:integer"/>
+	<xs:element name="price" type="xs:integer"/>
+	<xs:element name="manufacturer" type="xs:string"/>
+	<xs:element name="cartype" type="types"/>
+	<xs:element name="color" type="xs:string"/>
+	<xs:element name="mileage" type="xs:string"/>
+	<xs:element name="manufacturedDate" type="xs:date"/>
+
+	<xs:element name="dimension">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="height" type="xs:string"/>
+				<xs:element name="width" type="xs:string"/>
+			</xs:sequence>	
+		</xs:complexType>
+	</xs:element>
+
+	<xs:attribute name="CEO" type="xs:string"/>
+	<xs:attribute name="shopNo" type="xs:integer"/>
+	<xs:attribute name="carId" type="xs:string"/>
+	<xs:attribute name="imgId" type="xs:string"/>
+	<xs:attribute name="itemId" type="xs:string"/>
+	
+	<xs:simpleType name="types">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Electric"/>
+			<xs:enumeration value="Hybrid"/>
+			<xs:enumeration value="Fuel"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
+
+

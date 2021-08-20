@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_18029071.css"?> 
+<VehicleShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:noNamespaceSchemaLocation="catalog_18029071.xsd">
+	<ShopDetails CEO="Saagar K.C." shopNo="101">
+		<shopName> KARKI VEHICLE SHOP</shopName>
+		<address>Birauta-17-Pokhara</address>
+		<telephoneNumber>061-589467</telephoneNumber>
+		<websiteaddress>www.karkivehicle.com</websiteaddress>
+		<logo>
+			<img imgId="1"/>
+		</logo>
+	</ShopDetails>
+	<itemForSale>
+		<sedan itemId="101A">
+			<bodyStyle>SEDAN</bodyStyle>
+			<brandName>MERCEDES BENZ</brandName>
+			<description>Mercedes-Benz is a German global automobile marque
+			which  is known for luxury vehicles, vans, trucks, buses and coaches.
+			</description>
+			<itemNumber>1</itemNumber>
+			<quantity > 100</quantity>
+			<price > 20000</price>
+			<logo>
+				<img imgId="1.1"/>
+			</logo>			
+			<cars carId="500Z">
+				<manufacturer>Daimler AG</manufacturer>
+				<cartype>Electric</cartype>
+				<color>Silver</color>
+				<dimension>
+					<height>  0.9m</height>
+					<width> 3m</width>
+				</dimension>
+				<mileage>3 kmperL</mileage>
+				<manufacturedDate>1996-09-24</manufacturedDate>
+			</cars>
+		</sedan>
+
+		<sedan itemId="102A">
+			<bodyStyle>	SEDAN</bodyStyle>
+			<brandName> Honda Accord </brandName>
+			<description>The Honda Accord  is a series of automobiles manufactured by Honda since 1976,
+			best known for its four-door sedan variant, which has been one of the best-selling cars in the United States since 1989.
+			</description>
+			<itemNumber>2 </itemNumber>
+			<quantity >  20</quantity>
+			<price >  30000</price>
+			<logo>
+				<img imgId="1.1.1"/> 
+			</logo>			 
+			<cars carId="501Z" >
+				<manufacturer> Honda Motor Company</manufacturer>
+				<cartype>Fuel</cartype>
+				<color>Red</color>
+				<dimension>
+					<height>  1m</height>
+					<width> 2.5m</width>
+				</dimension>
+				<mileage>30.9 KmperL</mileage>
+				<manufacturedDate>2016-05-11</manufacturedDate>
+			</cars>
+		</sedan>
+
+		<sedan itemId="102A">
+			<bodyStyle>	SEDAN</bodyStyle>
+			<brandName> TOYOTA CAMRY </brandName>
+			<description>The Toyota Camry is an automobile sold internationally 
+			by the Japanese manufacturer Toyota since 1982, spanning multiple generations.
+			</description>
+			<itemNumber>3 </itemNumber>
+			<quantity >  20</quantity>
+			<price >  30000</price>
+			<logo>
+				<img imgId="1.1.2"/> 
+			</logo>			
+			<cars carId="503Z" >
+				<manufacturer> Suzuki</manufacturer>
+				<cartype>Hybrid</cartype>
+				<color>White</color>
+				<dimension>
+					<height>  1m</height>
+					<width> 2.8m</width>
+				</dimension>
+				<mileage>23.9 KmperL</mileage>
+				<manufacturedDate>2010-05-11</manufacturedDate>
+			</cars>
+		</sedan>
+
+		<hatchback itemId="102A">
+			<bodyStyle>	HATCHBACK</bodyStyle>
+			<brandName> TOYOTA GLANZA</brandName>
+			<description>The Glanza car is the first product from the Maruti Suzuki-Toyota partnership
+			and it is based on Maruti Suzuki’s Baleno. 
+			</description>
+			<itemNumber>4 </itemNumber>
+			<quantity >  10</quantity>
+			<price >  40000</price>
+			<logo>
+				<img imgId="1.2"/> 
+			</logo>
+			<cars carId="400Q" >
+				<manufacturer> Suzuki</manufacturer>
+				<cartype>Hybrid</cartype>
+				<color>Gray</color>
+				<dimension>
+					<height>  0.7m</height>
+					<width> 3m</width>
+				</dimension>
+				<mileage>23.9 KmperL</mileage>
+				<manufacturedDate>2002-05-11</manufacturedDate>
+			</cars>
+		</hatchback>
+
+		<hatchback itemId="102A">
+			<bodyStyle>	HATCHBACK</bodyStyle>
+			<brandName> TATA EV</brandName>
+			<description> Tata EV facelift was launched in India earlier this year alongside Tata Altroz, Tigor and Nexon facelifts. 
+			</description>
+			<itemNumber>5 </itemNumber>
+			<quantity >  10</quantity>
+			<price >  70000</price>
+			<logo>
+				<img imgId="1.3"/>
+			</logo>
+			<cars carId="401Q" >
+				<manufacturer> Tata Motors</manufacturer>
+				<cartype>Electric</cartype>
+				<color> Brown</color>
+				<dimension>
+					<height>  10cm</height>
+					<width> 70cm</width>
+				</dimension>
+				<mileage>25 KmperL</mileage>
+				<manufacturedDate>1992-08-12</manufacturedDate>
+			</cars>
+		</hatchback>
+
+		<hatchback itemId="102A">
+			<bodyStyle>	HATCHBACK</bodyStyle>
+			<brandName> TOYOTA COROLLA</brandName>
+			<description> The Toyota Corolla  is a line of subcompact and compact cars manufactured by Toyota. 
+			which was introduced in 1966.
+			</description>
+			<itemNumber>6</itemNumber>
+			<quantity >  16</quantity>
+			<price >  25000</price>
+			<logo>
+				<img imgId="1.2.3"/>
+			</logo>
+			<cars carId="402Q" >
+				<manufacturer>  Toyota </manufacturer>
+				<cartype>Electric</cartype>
+				<color> Sky Blue</color>
+				<dimension>
+					<height>  1m</height>
+					<width> 3m</width>
+				</dimension>
+				<mileage>14.9 KmperL</mileage>
+				<manufacturedDate>1999-08-12</manufacturedDate>
+			</cars>
+		</hatchback>
+
+		<suv itemId="103A">
+			<bodyStyle>SUV</bodyStyle>
+			<brandName>JAQUAR LAND ROVER </brandName>
+			<description>Jaguar is the luxury
+			British multinational car manufacturer with its headquarters in Whitley, Coventry, England. </description>
+			<itemNumber>7 </itemNumber>
+			<quantity > 19</quantity>
+			<price > 80000</price>
+			<logo>
+				<img imgId="1.4"/>
+			</logo>
+			<cars carId="1234A">
+				<manufacturer> Tata Motors</manufacturer>
+				<cartype>Hybrid</cartype>
+				<color>White</color>
+				<dimension>
+					<height>  10cm</height>
+					<width> 60cm</width>
+				</dimension>
+				<mileage>5 kmperL</mileage>
+				<manufacturedDate>1997-08-20</manufacturedDate>
+			</cars>
+		</suv>
+
+		<suv itemId="103A">
+			<bodyStyle>SUV</bodyStyle>
+			<brandName>JEEP GRAND </brandName>
+			<description>The Jeep Grand Cherokee has a reputation for combining comfort with true all-terrain prowess. </description>
+			<itemNumber>8</itemNumber>
+			<quantity > 19</quantity>
+			<price > 90000</price>
+			<logo>
+				<img imgId="1.5"/>
+			</logo>
+			<cars carId="1234B">
+				<manufacturer> Chrysler</manufacturer>
+				<cartype>Fuel</cartype>
+				<color>Black</color>
+				<dimension>
+					<height>  10cm</height>
+					<width> 60cm</width>
+				</dimension>
+				<mileage>9 kmperL</mileage>
+				<manufacturedDate>1994-07-20</manufacturedDate>
+			</cars>
+		</suv>
+
+		<suv itemId="103A">
+			<bodyStyle>SUV</bodyStyle>
+			<brandName>BMW X7 </brandName>
+			<description>The X7 is based on the Concept X7 iPerformance that was showcased during the 2017 Frankfurt Motor Show
+			which features a self-levelling air suspension system.
+			</description>
+			<itemNumber>9 </itemNumber>
+			<quantity > 20</quantity>
+			<price > 100000</price>
+			<logo>
+				<img imgId="1.4.5"/>
+			</logo>
+			<cars carId="1234C">
+				<manufacturer> Bayerische Motoren Werke AG </manufacturer>
+				<cartype>Hybrid</cartype>
+				<color>Black</color>
+				<dimension>
+					<height>  11cm</height>
+					<width> 100cm</width>
+				</dimension>
+				<mileage>13 kmperL</mileage>
+				<manufacturedDate>1990-07-20</manufacturedDate>
+			</cars>
+		</suv>
+	</itemForSale>
+</VehicleShop>
+
+
